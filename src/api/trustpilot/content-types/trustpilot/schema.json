@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trustpilots",
+  "info": {
+    "singularName": "trustpilot",
+    "pluralName": "trustpilots",
+    "displayName": "Trustpilot"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reviewer_name": {
+      "type": "string"
+    },
+    "review_title": {
+      "type": "string"
+    },
+    "review_text": {
+      "type": "text"
+    },
+    "stars": {
+      "type": "integer"
+    },
+    "time_ago": {
+      "type": "string"
+    }
+  }
+}
