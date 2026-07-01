@@ -19,6 +19,8 @@
     "@strapi/plugin-users-permissions": "5.48.1",
     "@strapi/strapi": "5.48.1",
     "better-sqlite3": "12.8.0",
+    "pg": "^8.22.0",
+    "pg-connection-string": "^2.14.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5"
